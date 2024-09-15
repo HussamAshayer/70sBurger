@@ -1,0 +1,17 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Noto Serif",serif;
+  color: white;
+  line-height: 1.6;
+  font-weight: 600;
+  font-size: 2rem;
+  background-color: black;
+}
