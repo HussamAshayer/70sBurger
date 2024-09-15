@@ -1,13 +1,15 @@
 .container{
   max-width: 140rem;
   /* remove */
-
-
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(35rem,1fr));
   grid-template-rows: min-content;
-  gap: 1rem;
+  gap:2rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("theme.jpg");
+
+  background-size: cover;
+
 /* height: 90rem !important; */
 
   }
@@ -82,5 +84,54 @@
   }
 
 .logo{
-  width: 100%;
+  width: 80%;
+}
+
+.item2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item5{
+  display: flex;
+  flex-direction: column;
+}
+
+.wings-grid{
+  display: grid;
+  grid-template-columns:2fr repeat(2,1fr);
+  flex:1.5;
+  padding: 1.4rem;
+}
+.wings-price{
+  text-align: center;
+}
+
+.wings-header{
+  text-align: center;
+  background-color: #fef200;
+  color: black;
+}
+
+.shrimp-container{
+  background-color: #fef200;
+  padding: 1rem;
+  flex:1;
+  color: black;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.shrimp-header{
+  text-align: center;
+}
+
+.shrimp-items{
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.shrimp-items p:last-child{
+  transform: translateX(-3px);
 }
