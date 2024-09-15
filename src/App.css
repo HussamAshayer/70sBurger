@@ -1,66 +1,86 @@
 .container{
-max-width: 140rem;
-/* remove */
-margin-left: 10rem;
-min-height: 100vh;
-margin: 0 auto;
-display: grid;
-grid-template-columns: repeat(auto-fit,minmax(35rem,1fr));
-grid-template-rows: min-content;
-gap: 1rem;
-}
-.item1{
+  max-width: 140rem;
+  /* remove */
+
+
+  margin: 0 auto;
   display: grid;
-}
-.sizes{
-  display: flex;
-  justify-content: space-around;
-  flex: 1;
-  align-self: flex-end;
-  margin-left: 1.5rem;
-}
+  grid-template-columns: repeat(auto-fit,minmax(35rem,1fr));
+  grid-template-rows: min-content;
+  gap: 1rem;
+/* height: 90rem !important; */
 
-.prices{
-  display: flex;
-  justify-content: space-around;
-  flex: 1;
-  align-self: flex-start;
-  margin-left: 4rem;
-
-}
-
-
-
-.meal-header{
-  display: flex;
-align-items: center;
-justify-content:space-between;
-}
-.burger-category{
-  text-align: center;
-}
-
-.meal-item{
-  display: flex;
+  }
+  .item1{
+    display: grid;
+  }
+  .sizes{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    align-self: flex-end;
+    /* margin-left: 1.5rem; */
+  }
+  
+  .prices{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    align-self: flex-start;
+    /* margin-left: 4rem; */
+  
+  }
+  
+  
+  
+  .meal-header{
+    display: flex;
   align-items: center;
   justify-content:space-between;
-}
-.meal{
+  }
+  .burger-category{
+    text-align: center;
+  }
+  
+  .meal-item{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  }
+  .meal{
+    width: 20rem;
+  }
+  .meal-name{
+  
+  }
+  .meal-description{
+  font-size: 1.6rem;
+  }
+  .sizes > *{
+    /* margin-left: 4rem; */
+  }
+  
+  .size:first-child{
+    /* text-align: start; */
+  }
+  
+  .size{
+    color: #fef200;
+    width:3ch;
+    text-align: center;
+  }
+  .regular{
+    width: 11ch;
+    text-align: center;
+  }
+  
+  .price:last-child{
+    transform: translateX(8px);
+  }
+  .sizes > *:not(:last-child){
+    transform: translateX(8px);
+  }
 
-}
-.meal-name{
-
-}
-.meal-description{
-font-size: 1.2rem;
-}
-.sizes > *{
-  /* margin-left: 4rem; */
-}
-.size{
-  color: #fef200;
-}
-.regular{
-  width: 11ch;
-  text-align: center;
+.logo{
+  width: 100%;
 }
