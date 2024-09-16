@@ -4,7 +4,7 @@ const Hussam = () => {
       <div className="container">
         <div className="box">
           <h1 className="box-header">BEEF BURGER</h1>
-          <h2 className="choice">Regular</h2>
+          <h2 className="choice choicereg">Regular</h2>
           <p className="size">S</p>
           <p className="size">M</p>
           <p className="size">L</p>
@@ -59,7 +59,7 @@ const Hussam = () => {
         </div>
         <div className="box">
           <h1 className="box-header">CHICKEN BURGER</h1>
-          <h2 className="choice">Regular</h2>
+          <h2 className="choice choicereg">Regular</h2>
           <p className="size">S</p>
           <p className="size">M</p>
           <p className="size">L</p>
@@ -110,7 +110,7 @@ const Hussam = () => {
           <p className="price">+1.50</p>
         </div>
         <div className="box">
-          <h2 className="choice">Regular</h2>
+          <h2 className="choice choicereg">Regular</h2>
           <p className="size">S</p>
           <p className="size">M</p>
           <p className="size">L</p>
