@@ -1,5 +1,5 @@
 .container{
-  max-width: 140rem;
+  max-width: 145rem;
   /* remove */
   margin: 0 auto;
   display: grid;
@@ -76,15 +76,19 @@
     text-align: center;
   }
   
-  .price:last-child{
+  /* .price:last-child{
     transform: translateX(8px);
   }
   .sizes > *:not(:last-child){
     transform: translateX(8px);
-  }
+  } */
 
 .logo{
   width: 80%;
+  grid-column: 1/-1;
+}
+.logo-box{
+text-align: center;
 }
 
 .item2{
@@ -134,4 +138,55 @@
 
 .shrimp-items p:last-child{
   transform: translateX(-3px);
+}
+
+
+.box{
+  display: grid;
+  grid-template-columns: 2fr repeat(4,min-content);
+  justify-items: center;
+  column-gap: 1.2rem;
+  
+}
+
+.box-1{
+
+}
+.box-header{
+  grid-column: 1/-1;
+  text-align: center;
+  color: #fef200;
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
+}
+
+.meal-desc{
+  font-size: 1.5rem;
+  color: #fef200;
+  filter: brightness(0.85);
+}
+
+.choice{
+  color: black;
+  background-color: #fef200;
+  text-align: center;
+  width: 16ch;
+  font-weight: 800;
+  padding: 0 0.5rem;
+
+}
+.span-choice{
+  grid-column: 1/-1;
+  /* width: 100%; */
+  background-color: #fef200;
+  justify-self: self-start;
+  color:black;
+  padding: 0 0.5rem;
+}
+.price{
+align-self: center;
+}
+
+.size{
+  align-self: end;
 }
